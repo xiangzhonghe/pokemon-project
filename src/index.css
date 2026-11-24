@@ -1,0 +1,47 @@
+.container{
+    max-width: 1050px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.pokemon-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.pokemon-card{
+    border: 1px solid #bbbbbb;
+    border-radius: 6px;
+    padding:10px;
+    text-align:center;
+    background-color: #efefef;
+}
+
+.search-section{
+    border: solid 1px #888888;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.search-card{
+    margin-top:16px;
+    text-align:center;
+}
+
+.error-message{
+    color:#d62828;
+    font-weight: bold;
+}
+
+input{
+    padding:5px;
+    width:210px;
+    margin-right: 8px;
+}
+
+button{
+    padding:5px 10px;
+}
